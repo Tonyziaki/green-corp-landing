@@ -122,3 +122,26 @@ button {
     font-weight: 600;
     margin-bottom: 15px;
 }
+
+.form input, .form select {
+    color: #213053;
+    font-size: 18px;
+    height: 60px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.form__submit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
