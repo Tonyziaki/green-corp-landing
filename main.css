@@ -110,3 +110,15 @@ button {
     flex-direction: column;
     text-align: left;
 }
+
+.form form{
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 60px;
+}
+
+.form label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
