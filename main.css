@@ -87,7 +87,7 @@ button {
 
 .form {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-content: center;
     background-color: #1D263A;
     color: #fff;
