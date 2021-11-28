@@ -140,6 +140,7 @@ button {
 
 select {
     appearance: none;
+    outline: none;
 }
 
 input {
