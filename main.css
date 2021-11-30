@@ -36,7 +36,6 @@ button {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
-    transition: background-color 0.3s ease-in;
 }
 
 .about {
@@ -121,7 +120,7 @@ button {
 .form label {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form input, .form select {
@@ -131,6 +130,7 @@ button {
     padding: 0px 20px;
     border: none;
     border-radius: 15px;
+    outline: none;
 }
 
 .form__submit {
@@ -141,20 +141,18 @@ button {
 
 select {
     appearance: none;
-    outline: none;
-}
-
-input {
-    outline: none;
 }
 
 button:hover {
-    background-color: ##f6980c;
+    background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
 }
 
 footer {
     margin: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .footer__container {
@@ -172,7 +170,7 @@ footer {
     margin-right: 80px;
 }
 
-.footer__group h3 {
+footer h3 {
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 30px;
