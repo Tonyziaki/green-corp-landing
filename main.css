@@ -30,6 +30,14 @@ header a {
     margin-right: 25px;
 }
 
+.orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
 button {
     font-family: 'Raleway', sans—serif;
     font-size: 15px;
@@ -55,6 +63,7 @@ button {
 .card{
     padding: 35px 40px 25px 40px;
     border: 1px;
+    background: #FFFFFF;
     border-color: #D9E4E6;
     border-radius: 5px;
     border-style: solid;
@@ -68,6 +77,7 @@ button {
 .logo3{
     color: #22a030;
 }
+
 .card h3{
     font-size: 16px;
     opacity: 0.8;
@@ -168,6 +178,7 @@ button {
     background-size: cover;
     grid-template-columns: 250px 250px;
     grid-template-rows: 0.4fr 0.1fr 0.2fr;
+    position: relative;
 }
 .about__images{
     grid-column: 2;
